@@ -21,7 +21,7 @@ public class UserDao implements IUserDao {
 
     @Override
     public int deleteUser(Connection con, User user) throws SQLException {
-        String sql="delete from usertable where id=?";
+        String sql="delete from user where id=?";
         PreparedStatement st=con.prepareStatement(sql);
 //        st.setString(1,user.getId());
         int rs=st.executeUpdate();
