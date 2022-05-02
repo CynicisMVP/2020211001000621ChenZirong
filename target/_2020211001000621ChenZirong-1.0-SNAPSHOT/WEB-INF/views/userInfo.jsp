@@ -1,4 +1,5 @@
 <%@ page import="com.ChenZirong.model.User" %>
+
 <%@include file="header.jsp"%>
 <h1> User Info</h1>
 
